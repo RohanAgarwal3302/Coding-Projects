@@ -1,0 +1,2 @@
+The code, when run, asks for an input from the user and checks whether the given input is a palindrome or not.
+Its asks for input after every test until the user wishes to exit the code by entering "exit".
