@@ -6,15 +6,13 @@ def palindrome_test(string):
         return False
 run=True
 while run==True:
-    #Takes an input from the user
     x=input("Enter a string to test for palindrome or 'exit':")
-    #Exits the program if the user inputs "exit"
     if x=="exit":
         print("Thank you for your time.")
         run=False
         break
     else:
-        #Takes the string input and converts it into a alphanumeric set
+        #Takes the input string and converts it into a alphanumeric set
         x=x.lower()
         test_set=  ""
         for c in x:
